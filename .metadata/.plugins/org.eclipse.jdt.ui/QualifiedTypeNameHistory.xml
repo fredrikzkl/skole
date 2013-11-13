@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="javax.naming.directory.NoSuchAttributeException"/>
+<fullyQualifiedTypeName name="oblig2.DobbeltLenketListe.DobbeltLenketListeIterator"/>
+<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+<fullyQualifiedTypeName name="java.util.ConcurrentModificationException"/>
+<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
+</qualifiedTypeNameHistroy>

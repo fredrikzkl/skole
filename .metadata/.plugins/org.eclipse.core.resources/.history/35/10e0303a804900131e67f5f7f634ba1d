@@ -1,0 +1,9 @@
+package oblig3;
+
+public class Test 
+{
+	public static void main(String[] args)
+	{
+		SBinTre2<String> tre = SBinTre2.lagTre();
+	}
+}

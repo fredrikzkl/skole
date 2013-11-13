@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+public class Oblig1test 
+{
+	public static void main(String[] args)
+	{
+		int[] a = {5,4,3,7,8,9,2,1};
+		System.out.println(Oblig1.maks(a));
+		System.out.println(Arrays.toString(a));
+	}
+}

@@ -1,0 +1,9 @@
+package lek;
+
+public class ForEach 
+{
+	char[] grades = {'A','B','C','D','E','F'};
+	
+	for(grade : grades)
+	 System.out.println(grade);
+}

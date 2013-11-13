@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hangman_style_bg"
+    android:paddingBottom="20dp">
+    
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical"
+        android:id="@+id/winsAndLossesCount" />
+	    <Button
+	        android:id="@+id/startGameBtn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/newGameBtn"
+	        android:hint="@string/newGameBtnHint"
+	        android:onClick="startGame"
+	        style="@style/blue_button"
+	        android:layout_marginBottom="5dp"/> />
+	    
+	    <Button
+	        android:id="@+id/aboutBtn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/aboutBtn"
+	        android:hint="@string/aboutBtnHint" 
+	        android:onClick="showAbout"
+	        style="@style/blue_button"
+	        android:layout_marginBottom="5dp"/> />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="ord">
+	    <item>BOOLEAN</item>
+	    <item>BOWLING</item>
+	    <item>XYLOFON</item>
+	    <item>YOGHURT</item>
+	    <item>CAMPING</item>
+	    <item>BROKKOLI</item>
+	    <item>SØLVBRYLLUP</item>
+	    <item>SØKNADSMAL</item>
+	    <item>VRIÅTTER</item>
+	    <item>ZURICH</item>
+	    <item>DIFFERENSIALLIKNING</item>
+	    <item>HESTELØP</item>
+	    <item>SCHIZOFRENI</item>
+	    <item>TRAMPOLINE</item>
+	    <item>SKJELMSKT</item>
+	    <item>SAUEØYE</item>
+	    <item>ANGSTSKRIK</item>
+	    <item>REGNINGER</item>
+	    <item>VEIOMLEGGING</item>
+	    <item>LESESAL</item>
+	    <item>UPÅLITELIG</item>
+	    <item>SKJÆRE</item>
+	    <item>PENGEPUNG</item>
+	</string-array>    
+</resources>

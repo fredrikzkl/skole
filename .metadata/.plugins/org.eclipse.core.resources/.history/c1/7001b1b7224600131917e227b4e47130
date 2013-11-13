@@ -1,0 +1,6 @@
+package lek;
+
+public class ForEach 
+{
+	char[] grades = {'A','B','C','D','E','F'};
+}

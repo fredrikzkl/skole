@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class Test 
+{
+	public static void main(String[] args)
+	{
+		a = {1,2,3};
+		Oblig1.toString(a, v, h, mellomrom)
+	}
+}

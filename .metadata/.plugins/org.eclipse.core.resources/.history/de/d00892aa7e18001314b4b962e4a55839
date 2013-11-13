@@ -1,0 +1,35 @@
+public class Oblig1 
+{	
+	// For en tabell med lengde n, vil det forekomme n-1 sammenligninger av tabellverdier.
+	
+	/* Ekstraspørsmål: Færrest ombyttinger blir det når det minste tallet kommer først og tallene kommer i stigende rekkefølge. 
+	Flest ombyttinger har vi når det største tallet ligger på a[0], for da blir det a.length-1 ombyttinger.
+	I gjennomsnitt blir det (1/2)+(2/3)+(3/4)+(4/5) + (n-1/n) ombyttinger for n elementer. */
+		
+	public static int maks(int[] a)
+	{
+		if (a.length < 1)
+		      throw new java.util.NoSuchElementException("a er tom");
+		
+		for (int i = 1; i < a.length; i++)
+		{
+			if (a[i-1] > a[i])
+			{
+				int temp = a[i-1];
+				a[i-1] = a[i];
+				a[i] = temp;
+			}
+		}
+		
+	return	a[a.length-1];
+	}
+	
+	Lag metoden public static void sortering(int[] a). Den skal sortere paramtertabellen a ved å bruke idéen i Oppgave 1 gjentatte ganger. Idéen gjør at den største verdien havner bakerst. Så gjentas dette slik at nest største verdi (dvs. den største av de gjenværende) havner nest bakerst. Osv. Unngå unødvendige sammenligninger. OBS: En tabell som er tom eller har kun ett element, er allerede sortert. Med andre ord utgjør ikke det noen feilsituasjoner.
+
+	La tabellen ha lengde n. Hvor mange sammenligninger av tabellverdier blir det?
+	
+	public static void sortering(int[] a)
+	{
+		
+	}
+}

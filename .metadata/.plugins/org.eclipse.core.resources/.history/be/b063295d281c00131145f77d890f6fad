@@ -1,0 +1,62 @@
+import java.util.*;
+
+public class Test 
+{
+	public static void main(String[] args)
+	{
+		int antallFeil = 0;
+		antallFeil += oppgave4();
+		
+		if (antallFeil == 0)
+	    {
+	      System.out.println("Gratulerer!! Du passerte testen!");
+	    }
+	    else
+	    {
+	      System.out.println("Dette må forbedres. Du har minst " + antallFeil + " feil!");
+	    }
+	}
+	
+	public static int oppgave4()
+	  {
+	    int antallFeil = 0;
+
+	    int[] a = {};   // skal ikke kastes unntak her!
+	    int[] b = {1};  // skal ikke kastes unntak her!
+	    int[] c = {1,1};
+	    int[] d = {6,2,4,6,9,1,4,9,10};
+	    int[] dkopi = {6,2,4,6,9,1,4,9,10};
+	    int[] e = {5,4,3,2,1};
+	    int[] f = {1,2,2,2,2,2,3};
+
+	    try
+	    {
+	      Oblig1.antallUlikeSortert(a);  // kaller metoden
+	      Oblig1.antallUlikeSortert(b);  // kaller metoden
+	    }
+	    catch (Exception ex)
+	    {
+	      System.out.println
+	        ("Oppgave 4: Ikke unntak for tabell med 0 eller 1 verdi!");
+	      antallFeil++;
+	    }
+
+	    if (Oblig1.antallUlikeUsortert(a) != 0
+	        || Oblig1.antallUlikeUsortert(b) != 1
+	        || Oblig1.antallUlikeUsortert(c) != 1
+	        || Oblig1.antallUlikeUsortert(d) != 6
+	        || Oblig1.antallUlikeUsortert(e) != 5
+	        || Oblig1.antallUlikeUsortert(f) != 3)
+	    {
+	      System.out.println("Oppgave 4: Metoden gir feil resultat!");
+	      antallFeil++;
+	    }
+
+	    if (!Arrays.equals(d,dkopi))
+	    {
+	      System.out.println("Oppgave 4: Metoden endrer tabellen!");
+	      antallFeil++;
+	    }
+	    return antallFeil;
+	  }
+}

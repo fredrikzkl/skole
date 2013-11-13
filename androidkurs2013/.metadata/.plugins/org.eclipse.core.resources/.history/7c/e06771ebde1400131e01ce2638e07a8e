@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="ord">
+	    <item>BOOLEAN</item>
+	    <item>INTEGER</item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    <item></item>
+	    
+	</string-array>    
+</resources>

@@ -1,0 +1,43 @@
+public class Oblig1 
+{	
+	// For en tabell med lengde n, vil det forekomme n-1 sammenligninger av tabellverdier.
+	
+	/* Ekstraspørsmål: Færrest ombyttinger blir det når det minste tallet kommer først og tallene kommer i stigende rekkefølge. 
+	Flest ombyttinger har vi når det største tallet ligger på a[0], for da blir det a.length-1 ombyttinger.
+	I gjennomsnitt blir det (1/2)+(2/3)+(3/4)+(4/5) + (n-1/n) ombyttinger for n elementer. */
+		
+	public static int maks(int[] a)
+	{
+		if (a.length < 1)
+		      throw new java.util.NoSuchElementException("a er tom");
+		
+		for (int i = 1; i < a.length; i++)
+		{
+			if (a[i-1] > a[i])
+			{
+				int temp = a[i-1];
+				a[i-1] = a[i];
+				a[i] = temp;
+			}
+		}
+		
+	return	a[a.length-1];
+	}
+	
+	
+	public static void sortering(int[] a)
+	{
+		for (int i = 1; i < a.length; i++)
+		{
+			for (int j = i + 1; j < a.length; j++)
+			{
+				if (a[i] > a[j])
+				{
+					int temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+				}
+			}
+		}
+	}
+}

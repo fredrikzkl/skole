@@ -1,0 +1,158 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a07da2949edbdcb8e4a8f4eb79fdd46426f5c01b",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "97e3bcb13f325218fcf9d2286aa7ce6e8c231b7a",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "95dc9053062d68cde4e8c38494cc63aefd7b0a42",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/ext/sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "767222300113ff6640d566e6e53260f717510d33",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f831655c50b92c41e366442d09511ea84270c45e",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ea9f13be3297a3c3613a528f5ea1665e96ff04fe",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ff7728399d02c841c200c1225ae3c3e94be63fc3",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "82b636534dc1f1e3300915e9e5f70935dc47b4f5",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/ext/zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b4085004247b082b1d95f3bbf47cee40f03d3f09",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "49a31f0194788454932c23882ef1a41e7442fd5c",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "697eb9bcd2e3c30b94820ee070c19b07d7b7fc05",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "69038c0795477218ee65761dedd47e0f9e58d677",
+    "jarFileModificationDate": "2013-10-17T12:48:20+02:00",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar",
+    "javaRuntime": true
+  }
+]

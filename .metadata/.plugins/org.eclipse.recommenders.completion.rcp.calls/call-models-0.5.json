@@ -1,0 +1,22 @@
+{
+  "/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar",
+    "status": "RESOLVED"
+  },
+  "/home/nguyen/workspace/algdat/src": {
+    "location": "/home/nguyen/workspace/algdat/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/home/nguyen/workspace/algdat/src\u0027. Skipped."
+  },
+  "/home/nguyen/workspace/oblig2/src": {
+    "location": "/home/nguyen/workspace/oblig2/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/home/nguyen/workspace/oblig2/src\u0027. Skipped."
+  },
+  "/home/nguyen/workspace/oblig3/src": {
+    "location": "/home/nguyen/workspace/oblig3/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/home/nguyen/workspace/oblig3/src\u0027. Skipped."
+  }
+}

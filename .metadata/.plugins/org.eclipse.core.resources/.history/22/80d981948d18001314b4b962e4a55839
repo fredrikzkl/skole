@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class Test 
+{
+	public static void main(String[] args)
+	{
+		int[] a = {1,4,3,2,5};
+		System.out.println(Arrays.toString(Oblig1.sortering(a)));
+	}
+}
